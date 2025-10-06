@@ -1,20 +1,45 @@
 *{
     margin: 20px auto;
 }
+
+body{
+    /* color: #3E2C00; */
+    /* background-color: rgba(250, 235, 215, 0.014); */
+    /* background-color: rgba(250, 235, 215, 0.075); */
+    /* background-color: rgba(250, 235, 215, 0.137); */
+    /* background-color: rgba(250, 235, 215, 0.466); */
+    /* background-color: rgba(250, 235, 215, 0.555); */
+}
 .githubSteps li{
    list-style-type: none;
     font-weight: 700;
 }
 
 pre{
-    border: 1px solid lightslategray;
+    border: 2px inset #80B3FF;
    width: 500px
 }
 
 .renameFolder{
     margin: auto;
-    padding-bottom: 40px;
+    margin-bottom: 80px;
+    padding: 100px;
     width: 70%;
+    border-radius: 20px;
+    box-shadow: 20px 20px 24px #ff80809f;
+    /* box-shadow: 20px 20px 24px #ff808071; */
+    /* box-shadow: 24px 24px 24px #ff808065; */
+    /* border: 1px solid #f14f2f33; */
+    border: 1px solid #f14f2f59;
+    /* border: 1px solid #f14f2f25; */
+    background-color: rgba(255, 255, 197, 0.075);
+    /* background-color: #ffffc5; */
+    /* background-color: #fffdd0; */
+    /* background-color: #fffdd0; */
+    /* background-color: rgba(128, 179, 255, 0.445); */
+    /* background-color: rgba(128, 179, 255, 0.459); */
+    /* background-color: rgba(128, 179, 255, 0.425); */
+    /* background-color: rgba(128, 179, 255, 0.616); */
 }
 
 .renameFolder ul{
@@ -27,5 +52,29 @@ pre{
 }
 
 p{
-    font-size: 17;
+    font-size: 17px;
+    /* color: #00060f; */
+    line-height: 150%;
+}
+
+p code, ul li code{
+    /* background-color: rgba(208, 210, 255, 0.87); */
+    /* background-color: rgba(208, 210, 255, 0.796); */
+    /* background-color: #D0D2FF; */
+    background-color: rgba(128, 179, 255, 0.404);
+    /* background-color: rgba(248, 200, 137, 0.329); */
+}
+
+h1{
+    color: #FF8080;
+    /* color: #FF8080; */
+    /* font-weight: 400; */
+    /* letter-spacing: 1.06px; */
+    font-size: 40px;
+    
+}
+
+h3{
+    color: #418812;
+    font-size: 25px;
 }
