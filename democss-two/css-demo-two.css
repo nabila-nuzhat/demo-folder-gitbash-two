@@ -2,14 +2,14 @@
     margin: 20px auto;
 }
 
-body{
-    /* color: #3E2C00; */
-    /* background-color: rgba(250, 235, 215, 0.014); */
-    /* background-color: rgba(250, 235, 215, 0.075); */
-    /* background-color: rgba(250, 235, 215, 0.137); */
-    /* background-color: rgba(250, 235, 215, 0.466); */
-    /* background-color: rgba(250, 235, 215, 0.555); */
-}
+/* body{
+    color: #3E2C00;
+    background-color: rgba(250, 235, 215, 0.014);
+    background-color: rgba(250, 235, 215, 0.075);
+    background-color: rgba(250, 235, 215, 0.137);
+    background-color: rgba(250, 235, 215, 0.466);
+    background-color: rgba(250, 235, 215, 0.555);
+} */
 .githubSteps li{
    list-style-type: none;
     font-weight: 700;
