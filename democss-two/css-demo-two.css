@@ -1,4 +1,31 @@
-ul li{
+*{
+    margin: 20px auto;
+}
+.githubSteps li{
    list-style-type: none;
     font-weight: 700;
+}
+
+pre{
+    border: 1px solid lightslategray;
+   width: 500px
+}
+
+.renameFolder{
+    margin: auto;
+    padding-bottom: 40px;
+    width: 70%;
+}
+
+.renameFolder ul{
+    list-style-type: square;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 15px;
+
+}
+
+p{
+    font-size: 17;
 }

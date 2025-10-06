@@ -4,23 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo 2nd Foler Git Bash</title>
+    <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- css -->
      <link rel="stylesheet" href="./democss-two/css-demo-two.css">
 </head>
 <body>
-    <h1> Hello There!!</h1>
-    <p>Name of the folder containing CSS file has been changed in git bash terminal using VS code</p>
-    <h2>The commands below:</h2>
-    <pre>
-        <code>
-            git mv older_floder_name new_folder_name
-            git status
-            git commit -m "Renamed older_floder_name to new_folder_name"
-            git push origin origin_name <!-- eg. origin name = main -->
-        </code>
-    </pre>
-    <h2>Connceting and Adding Local Project to Git and Github</h2>
-    <ul>
+    <section class="renameFolder">
+        <h1> Rename Folder in Git Bash</h1>
+        <p>To rename a folder in Git Bash <code>git mv</code> command is used. The <code>git mv</code> is followed by the old name of the folder and the new name of the folder. <br> The steps & the commands are as follows:</p>
+        <h3>Steps:</h3>
+        <ul>
+            <li>Open the Git Bash.</li>
+            <li>By using <code>cd</code> command change the current working directory to the local Git repository</li>
+            <li>Type <code>git mv </code>followed by the old name of the folder and the new name of the target folder. </li>
+            <li>Type <code>git status </code> to confirm if the folder name has been successfully changed</li>
+            <li>Commit the changes made to the folder name.</li>
+            <li>Push the changes using "<code>git push origin branch_name</code>"</li>
+        </ul>
+        <h3>The commands below:</h3>
+<pre><code>
+    git mv old_folder_name new_folder_name
+    git status
+    git commit -m "Renamed old_folder_name to new_folder_name"
+    git push origin branch_name <!-- eg. branch name = main -->
+</code>
+        </pre>
+    </section>
+   
+
+    <h2>Connecting and Adding Local Project to Git and Github</h2>
+    <ul class="githubSteps">
         <li>> git init</li>
         <li>> git add .</li>
         <li>> git commit -m "first any comment"</li>
